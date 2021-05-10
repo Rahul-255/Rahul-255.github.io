@@ -286,7 +286,12 @@ h6 {
 #intro1 .intro-info .btn-services:hover {
   background: #0a98c0;
 }
-
+#intro .intro-info h4 {
+  color: #b41f2c;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
 #intro .intro-info h2 {
   color: #343a40;
   margin-bottom: 40px;
@@ -607,6 +612,14 @@ h6 {
 #about .about-img {
   position: relative;
   margin: 30px 30px 30px 30px;
+
+}
+#image .about-img {
+  position: relative;
+}
+#image .about-img img {
+  width: 100%;
+  height: 100%;
 }
 
 #about .about-img img {
